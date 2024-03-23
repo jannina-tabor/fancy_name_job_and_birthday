@@ -30,3 +30,4 @@ fancy_birthday = f"{color_birthday}{font_birthday.renderText(birthday)}"
 print (fancy_birthday)
 
 # Give ending credits to the user
+print ("Thank you for using this program. Exiting...")
