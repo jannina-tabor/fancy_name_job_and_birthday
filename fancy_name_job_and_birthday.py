@@ -29,3 +29,4 @@ color_birthday = '\033[0;33m'
 fancy_birthday = f"{color_birthday}{font_birthday.renderText(birthday)}"
 print (fancy_birthday)
 
+# Give ending credits to the user
