@@ -1,3 +1,5 @@
+import pyfiglet
+
 # pseudocode
 
 # ask the user to input their name
@@ -10,6 +12,11 @@ dream_job = input("Please enter your dream job: ")
 birthday = input("Please enter your date of birth: ")
 
 # print the inputted name in a fancy way
+font_name = pyfiglet.Figlet(font='dancing_font')
+color_name = '\033[0;35m'
+fancy_name = f"{color_name}{font_name.renderText(name)}"
+print (fancy_name)
+
 # print the inputted dream job in a fancy way
 # print the inputted birthday in a fancy way
 
