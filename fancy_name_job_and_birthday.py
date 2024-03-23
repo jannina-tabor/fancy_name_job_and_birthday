@@ -24,7 +24,7 @@ fancy_dream_job = f"{color_dream_job}{font_dream_job.renderText(dream_job)}"
 print (fancy_dream_job)
 
 # print the inputted birthday in a fancy way
-font_birthday = pyfiglet.Figlet(font='type_set')
+font_birthday = pyfiglet.Figlet(font='pebbles')
 color_birthday = '\033[0;33m'
 fancy_birthday = f"{color_birthday}{font_birthday.renderText(birthday)}"
 print (fancy_birthday)
