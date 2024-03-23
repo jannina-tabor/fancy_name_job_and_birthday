@@ -20,6 +20,7 @@ print (fancy_name)
 # print the inputted dream job in a fancy way
 font_dream_job = pyfiglet.Figlet(font='slant')
 color_dream_job = '\033[0;36m'
+fancy_dream_job = f"{color_dream_job}{font_dream_job.renderText(dream_job)}"
 
 # print the inputted birthday in a fancy way
 
